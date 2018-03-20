@@ -9,18 +9,18 @@ Mi CRUD y base de datos será sobre un videoclub, y usará tres tablas: Socios, 
 
 <img width="720px" src="/img/videoclub.jpg">
 
-Logo diseñado para el trabajo:
+### Logo diseñado para el trabajo:
 
 <img width="720px" src="/img/logo.png">
 
-index.html:
+### index.html:
 
 <img width="720px" src="/img/Captura1.PNG">
 
-Ejemplo de tabla CRUD:
+### Ejemplo de tabla CRUD:
 
-<img width="720px" src="/img/Captura1.PNG">
+<img width="720px" src="/img/Captura2.PNG">
 
-Relaciones:
+### Relaciones:
 
 <img width="720px" src="/img/relaciones.PNG">
