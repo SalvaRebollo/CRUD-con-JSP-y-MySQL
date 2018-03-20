@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- URL CANONICAL -->
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+
+        <!-- CSS WebSlides -->
+        <link rel="stylesheet" type='text/css' media='all' href="static/css/webslides.css">
+
+        <!-- Optional - CSS SVG Icons (Font Awesome) -->
+        <link rel="stylesheet" type='text/css' media='all' href="static/css/svg-icons.css">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+
+    </head>
+    <body>
+
+        <main role="main">
+            <article id="webslides" class="vertical">
+                <section>
+                    <span class="background" style="background-image: url('static/rollopelicula.png');"></span>
+                    <!--.wrap = container (width: 90%) -->
+                    <div class="wrap aligncenter">
+                        <h1><strong>¿A qué sección quieres ir?</strong></h1>
+                        <p class="text-intro">Selecciona una opción y te llevaremos a su respectiva tabla en la que podrás modificar, añadir, ver o borrar cualquier elemento
+                        </p>
+                        <p>
+                            <!-- LINK 1 -->
+                            <a href="./socios.jsp" class="button zoomIn" title="Acceder a CRUD de socios registrados.">
+                                <svg class="fas fa-database">
+                                    <use xlink:href="#fa-database"></use>
+                                </svg>
+                                Socios
+                            </a>
+
+                            <!-- LINK 2 -->
+                            <a href="./peliculas.jsp" class="button zoomIn" title="Acceder a CRUD de catálogo de películas.">
+                                <svg class="fas fa-database">
+                                    <use xlink:href="#fa-database"></use>
+                                </svg>
+                                Peliculas
+                            </a>
+
+                            <!-- LINK 3 -->
+                            <a href="./alquiler.jsp" class="button zoomIn" title="Acceder a CRUD de alquileres realizados en este momento.">
+                                <svg class="fas fa-database">
+                                    <use xlink:href="#fa-database"></use>
+                                </svg>
+                                Alquileres realizados
+                            </a>
+                        </p>
+                    </div>
+                    <!-- .end .wrap -->
+                </section>
+            </article>
+            <!-- end article -->
+        </main>
+        
+
+        <!-- Required -->
+        <script src="static/js/webslides.js"></script>
+        <script>
+            window.ws = new WebSlides();
+        </script>
+
+        <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+        <script defer src="static/js/svg-icons.js"></script>
+
+    </body>
+</html>
